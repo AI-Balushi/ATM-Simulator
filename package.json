@@ -1,9 +1,13 @@
 {
-  "name": "atm-simulator",
+  "name": "@abdul_waheed/atm-simulator",
   "version": "1.0.0",
   "description": "TypeScript-based project that simulates the functionality of an ATM machine.",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
